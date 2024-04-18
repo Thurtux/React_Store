@@ -11,7 +11,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3));
+    background-image: linear-gradient(rgba(128, 128, 128, 0.6), rgba(167, 167, 167, 0.3));
 }
 
 .nav-menu ul .link{
