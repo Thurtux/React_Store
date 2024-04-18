@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.nav-menu{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3));
+}
+
+.nav-menu ul .link{
+    display: inline;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    
+}
+.nav-menu ul .link.link:hover{
+    box-shadow: 5px 10px 10px violet;
+    cursor: pointer;
+
+}
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+
+}
+
+.image{
+    background-image: url("../assets/ImagemGamer.jpg");
+    filter: sepia(50%);
+}
+.produtos {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.btn{
+    color: black;
+    letter-spacing: 1px;
+    text-decoration: none;
+    background-color: white;
+    padding: 0;
+    border-radius: 10%;
+    margin-top: 2%;
+    transition: 0.35s;
+    color: red
+}
+
+.btn:hover{
+    background-color: purple;
+    color: black;
+    box-shadow: none;
+}
+
